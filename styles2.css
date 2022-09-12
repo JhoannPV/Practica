@@ -1,0 +1,53 @@
+label{
+    display: inline-block;
+    width: 90px;
+}
+body{
+    background-color: rgb(221, 221, 221);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.button{
+    width: auto;
+    height: auto;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 4px;
+    border-color: cornflowerblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.button:hover{
+    background-color: rgb(87, 138, 233);
+    border-color: rgb(87, 138, 233);
+}
+.RedondoMorado{
+    border-radius: 50%;
+    border-color: white;
+}
+.RedondoMorado:hover {
+    background-color: rgb(132, 17, 226);
+    border-color: rgb(164, 113, 206);
+}
+.RedondoAzul {
+    border-radius: 20%;
+    border-color: white;
+}
+
+.RedondoAzul:hover {
+    background-color: rgb(17, 149, 226);
+    border-color: rgb(65, 165, 223)
+}
+.container{
+    background-color: rgb(111, 117, 117);
+    padding: 20px 10px 10px 9px;
+    border: 1px solid rgb(124, 126, 126);
+    border-radius: 6px;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}

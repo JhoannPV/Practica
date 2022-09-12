@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="styles2.css" />
+  </head>
+  <body>
+    <h1>Formularios</h1>
+    <div class="container">
+      <form id="Forms" method="post" enctype="multipart/form-data">
+        <!--Con el atributo enctype="multipart/form-data" permite el envio de archivos 
+          cuando se utiliza input tipo file-->
+        <p><b>Text</b></p>
+        <label for="text1">Text1</label>
+        <input type="text" id="text1" name="text1" />
+        <br />
+        <label for="text2">Text2</label>
+        <input type="text" id="text2" name="text2" disabled />
+        <br />
+        <label for="text2">Text3</label>
+        <input
+          type="text"
+          id="text3"
+          name="text3"
+          placeholder="Text3"
+          readonly
+        />
+        <br />
+        <label for="text4">Text4</label>
+        <input type="text" id="text4" name="text4" value="Text4" readonly />
+        <br />
+        <label for="text5">Text5</label>
+        <input type="text" id="text5" name="text5" maxlength="5" />
+        <br />
+        <label for="text6">Text6</label>
+        <input type="text" id="text6" name="text6" size="10" />
+        <br />
+        <label for="text7">Text7</label>
+        <input type="text" id="text7" name="text7" value="Text7" />
+        <br />
+        <label for="text8">Text8</label>
+        <input
+          type="text"
+          id="text8"
+          name="text8"
+          value="Text8"
+          size="10"
+          maxlength="6"
+        />
+        <p><b>Checkbox1</b></p>
+        <input type="checkbox" name="checkbox1" value="HTML" />HTML
+        <input type="checkbox" name="checkbox1" value="CSS" />CSS
+        <p><b>Checkbox2</b></p>
+        <input type="checkbox" name="checkbox2" value="HTML" disabled />HTML
+        <input type="checkbox" name="checkbox2" value="CSS" />CSS
+        <p><b>Checkbox3</b></p>
+        <input type="checkbox" name="checkbox3" value="HTML" checked />HTML
+        <input type="checkbox" name="checkbox3" value="CSS" />CSS
+        <p><b>Radio1</b></p>
+        <input type="radio" name="radio1" value="HTML" />HTML
+        <input type="radio" name="radio1" value="CSS" />CSS
+        <p><b>Radio2</b></p>
+        <input type="radio" name="radio2" value="HTML" disabled />HTML
+        <input type="radio" name="radio2" value="CSS" />CSS
+        <p><b>Radio3</b></p>
+        <input type="radio" name="radio3" value="HTML" checked />HTML
+        <input type="radio" name="radio3" value="CSS" />CSS
+        <p><b>File</b></p>
+        <label for="file1">File1</label>
+        <input type="file" id="file1" name="file1" />
+        <br />
+        <label for="file2">File2</label>
+        <input type="file" id="file2" name="file2" disabled />
+        <p><b>Password</b></p>
+        <label for="password1">Password1</label>
+        <input type="password" id="password1" name="password1" />
+        <br />
+        <label for="password2">Password2</label>
+        <input type="password" id="password2" name="password2" disabled />
+        <br />
+        <label for="password3">Password3</label>
+        <input
+          type="password"
+          id="password3"
+          name="password3"
+          readonly
+          placeholder="Password3"
+        />
+        <br />
+        <label for="password4">Password4</label>
+        <input
+          type="password"
+          id="password4"
+          name="password4"
+          value="Password4"
+          readonly
+        />
+        <br />
+        <label for="password5">Password5</label>
+        <input
+          type="password"
+          id="password5"
+          name="password5"
+          value="Password5"
+        />
+        <br />
+        <label for="password6">Password6</label>
+        <input type="password" id="password6" name="password6" maxlength="5" />
+        <br />
+        <label for="password7">Password7</label>
+        <input type="password" id="password7" name="password7" size="10" />
+        <br />
+        <label for="password8">Password8</label>
+        <input
+          type="password"
+          id="password8"
+          name="password8"
+          value="Password8"
+          size="12"
+          maxlength="10"
+        />
+        <!--Campos Ocultos, se podrian utilizar junto JavaScript para contabilizar cuanto tiempo tarda
+        un usuario en subir el formulario-->
+        <input type="hidden" name="hidden1" value="10" />
+        <input type="hidden" name="hidden2" value="10" disabled />
+        <br />
+        <br />
+        <input type="button" class="button" value="Jesús" />
+        <!--Al tipo button se le puede dar funcionalidad con JavaScript-->
+        <br />
+        <br />
+        <button type="submit" class="RedondoMorado">
+          <img
+            src="D:\Aplicativos\WEB\Practica\image\GitHub.png"
+            width="40"
+            height="40"
+          />
+        </button>
+        <!--Con la etiqueta 'button' se pueden crear botones de submit, reset, etc. y se puede
+        incluir imagenes como botones-->
+        <br />
+        <br />
+        <input type="submit" class="button" />
+        <input type="reset" class="button" />
+        <!--Con el atributo 'value' en los botones submit, reset, button, entre otros,
+        se puede modificar lo que dice el boton-->
+        <br />
+        <br />
+        <input
+          type="image"
+          src="D:\Aplicativos\WEB\Practica\image\Windows.png"
+          class="RedondoAzul"
+          width="50"
+          height="50"
+          alt=" Windows"
+        />
+        <!--Con un input de tipo 'image' se pueden establecer imagenes como iconos-->
+      </form>
+    </div>
+  </body>
+</html>

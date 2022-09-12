@@ -1,0 +1,9 @@
+body{
+    background-color:rgb(221, 221, 221);
+}
+.Listas{
+    background-color:rgb(238, 238, 238);
+    width: 170px;
+    border-radius: 12px;
+    padding: 0.01%;
+}
