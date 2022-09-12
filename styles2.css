@@ -9,6 +9,12 @@ body{
 input{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+select{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+textarea{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .button{
     width: auto;
     height: auto;

@@ -126,21 +126,77 @@
         un usuario en subir el formulario-->
         <input type="hidden" name="hidden1" value="10" />
         <input type="hidden" name="hidden2" value="10" disabled />
+        <p><b>Select1</b></p>
+        <select name="select1" id="select1">
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
+        </select>
+        <p><b>Select2</b></p>
+        <select name="select2" id="select2" multiple>
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
+        </select>
+        <p><b>Select3</b></p>
+        <select name="select3" id="select3">
+          <optgroup label="HTML">
+            <option value="Tablas">Tablas</option>
+            <option value="Formularios">Formularios</option>
+          </optgroup>
+          <optgroup label="CSS">
+            <option value="Colores">Colores</option>
+          </optgroup>
+        </select>
+        <p><b>Select4</b></p>
+        <select name="select4" id="select4" multiple>
+          <optgroup label="HTML">
+            <option value="Tablas">Tablas</option>
+            <option value="Formularios">Formularios</option>
+          </optgroup>
+          <optgroup label="CSS">
+            <option value="Colores">Colores</option>
+          </optgroup>
+        </select>
+        <br />
+        <label for="Texarea1"
+          ><p><b>Textarea</b></p></label
+        >
+        <br />
+        <textarea
+          name="Texarea1"
+          id="Texarea1"
+          cols="30"
+          rows="5"
+          placeholder="Agrege un comentario..."
+        ></textarea>
+        <p><b>Fieldset</b></p>
+        <fieldset>
+          <legend>Perfil</legend>
+          <label for="nombre1">Nombre</label>
+          <input type="text" id="nombre1" name="nombre1" />
+          <br />
+          <label for="email1">Email</label>
+          <input type="email" id="email1" name="email1" />
+        </fieldset>
+        <fieldset>
+          <legend>Temas</legend>
+          <input type="checkbox" name="checkbox4" />HTML
+          <input type="checkbox" name="checkbox4" />CSS
+        </fieldset>
         <br />
         <br />
-        <input type="button" class="button" value="Jesús" />
+        <input type="button" name="Jesús" class="button" value="Jesús" />
         <!--Al tipo button se le puede dar funcionalidad con JavaScript-->
         <br />
         <br />
-        <button type="submit" class="RedondoMorado">
+        <button type="submit" class="RedondoMorado" name="submit1" id="submit1">
           <img src="/image/GitHub.png" width="40" height="40" />
         </button>
         <!--Con la etiqueta 'button' se pueden crear botones de submit, reset, etc. y se puede
         incluir imagenes como botones-->
         <br />
         <br />
-        <input type="submit" class="button" />
-        <input type="reset" class="button" />
+        <input type="submit" class="button" name="submit2" id="submit2" />
+        <input type="reset" class="button" name="reset1" id="reset1" />
         <!--Con el atributo 'value' en los botones submit, reset, button, entre otros,
         se puede modificar lo que dice el boton-->
         <br />
@@ -152,6 +208,8 @@
           width="50"
           height="50"
           alt=" Windows"
+          name="submit3"
+          id="submit3"
         />
         <!--Con un input de tipo 'image' se pueden establecer imagenes como iconos-->
       </form>
