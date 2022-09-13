@@ -1,0 +1,31 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: fit-content;
+    text-align: center;
+}
+caption{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+h1{
+    text-align: center;
+}
+#copyright{
+    text-align: center;
+}
+
+/*Background Colors*/
+.bg_yellow{
+    background-color: yellow;
+}
+.bg_blue{
+    background-color: blue;
+}
+.bg_red{
+    background-color: red;
+}
+.bg_green{
+    background-color: green;
+}
+

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+    <link
+      rel="stylesheet"
+      href="/Google_Activate/Formularios y Tablas/tables.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Ejemplos de Tablas</h1>
+    </header>
+    <hr />
+    <section id="tables">
+      <h2>Ejemplos</h2>
+      <table id="table1">
+        <caption>
+          Mi primera tabla
+        </caption>
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Papas</td>
+            <td>15.000</td>
+          </tr>
+          <tr>
+            <td>Frijoles</td>
+            <td>14.000</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Total</td>
+            <td>29.000</td>
+          </tr>
+        </tfoot>
+      </table>
+      <br />
+      <h2>Casos Prácticos</h2>
+      <table id="table2">
+        <caption>
+          Ingresos
+        </caption>
+        <thead>
+          <tr>
+            <td colspan="2">2012</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="2">Enero</td>
+          </tr>
+          <tr>
+            <td>100€</td>
+            <td>50€</td>
+          </tr>
+          <tr>
+            <td>Febrero</td>
+            <td>75€</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <table id="table3">
+        <caption>
+          Ingresos
+        </caption>
+        <thead>
+          <tr>
+            <td colspan="3">2012</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2">Enero</td>
+            <td>1</td>
+            <td>100€</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>50€</td>
+          </tr>
+          <tr>
+            <td colspan="2">Febrero</td>
+            <td>75€</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Colgroup and Col</h2>
+      <table id="table4">
+        <!--Al usar colgroup o col, si se va a seleccionar una sola columna, no es necesario
+        especificar el 'span = 1' porque por defecto viene en 1;-->
+        <colgroup span="2" class="bg_yellow"></colgroup>
+        <colgroup class="bg_blue"></colgroup>
+        <colgroup>
+          <col class="bg_red" />
+          <col class="bg_green" />
+          <col class="bg_red" />
+        </colgroup>
+        <caption>
+          Colgroup and Col
+        </caption>
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+            <th>Destinatario</th>
+            <th>Dirección</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Papas</td>
+            <td>15.000$</td>
+            <td>5</td>
+            <td>Juan</td>
+            <td>Calle 12 # 36-14</td>
+            <td>75.000$</td>
+          </tr>
+          <tr>
+            <td>Frijoles</td>
+            <td>14.000$</td>
+            <td>4</td>
+            <td>Alberto</td>
+            <td>Calle 15 # 47-26</td>
+            <td>56.000$</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <table id="table5">
+        <colgroup>
+          <col class="bg_red" />
+          <col class="bg_blue" />
+        </colgroup>
+        <col class="bg_yellow" />
+        <caption>
+          Ingresos
+        </caption>
+        <thead>
+          <tr>
+            <td colspan="3">2012</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2">Enero</td>
+            <td>1</td>
+            <td>100€</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>50€</td>
+          </tr>
+          <tr>
+            <td colspan="2">Febrero</td>
+            <td>75€</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <hr />
+    <footer>
+      <p id="copyright">Copyright 2022</p>
+    </footer>
+  </body>
+</html>
