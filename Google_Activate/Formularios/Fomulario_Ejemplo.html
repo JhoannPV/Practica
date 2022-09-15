@@ -7,7 +7,132 @@
     <title>Nuevas caracteristicas de HTML5 en formularios</title>
   </head>
   <body>
-    <header><h1>Nuevas caracteristicas de HTML5 en formularios</h1></header>
-    <section id="FormularioEjemplo"></section>
+    <header>
+      <h1>Nuevas caracteristicas de HTML5 en formularios</h1>
+      <p>
+        Este es un ejemplo sobre las nuevas caracteristicas de HTML5 en
+        formularios
+      </p>
+    </header>
+    <section id="FormularioEjemplo">
+      <form id="form-order">
+        <p>
+          <label for="name">Nombre (Obligatorio)</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Juan Pérez"
+            autofocus
+            autocomplete
+            required
+          />
+        </p>
+        <p>
+          <label for="passwd">Contraseña (Obligatoria)</label>
+          <input
+            type="password"
+            name="passwd"
+            id="passwd"
+            placeholder="qwe1234"
+            pattern="[a-z]{3}[0-9]{4}"
+            required
+          />
+          (La contraseña debe contener 3 letras y 4 números en este orden)
+        </p>
+        <p>
+          <label for="phone">Teléfono</label>
+          <input type="tel" name="phone" id="phone" placeholder="+7965453635" />
+        </p>
+        <p>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="ejemplo@email.com"
+          />
+        </p>
+        <p>
+          <label for="website">Tu página web</label>
+          <input
+            type="url"
+            name="website"
+            id="website"
+            placeholder="http://www.tuweb.com"
+          />
+        </p>
+        <p>
+          <label for="numberexample">N° de temas</label>
+          <input
+            type="number"
+            name="numberexample"
+            id="numberexample"
+            min="2"
+            max="14"
+            placeholder="2"
+            step="2"
+          />
+          (entre 2 y 14, solo pares)
+        </p>
+        <p>
+          <label for="deliverydate">Fecha de envio</label>
+          <input
+            type="date"
+            name="deliverydate"
+            id="deliverydate"
+            min="2012-07-16"
+          />
+          (mínimo 16 de Julio de 2012)
+        </p>
+        <p>
+          <label for="colorexample">Color del item</label>
+          <input
+            type="color"
+            name="colorexample"
+            id="colorexample"
+            value="#1A33FF"
+          />
+        </p>
+        <p>
+          <label for="search">Buscar</label>
+          <input type="search" name="search" id="search" />
+        </p>
+        <p>
+          <label for="points">Rango de valores</label>
+          <input type="range" name="points" id="points" min="1" max="10" />
+          (entre 1 y 10)
+        </p>
+        <p>
+            <fieldset>
+                <legend>Selecciona una prioridad</legend>
+                <p>
+                    <label> <input type="radio" name="priority" value="baja" checked> Baja</label>
+                </p>
+                <p>
+                    <label><input type="radio" name="priority" value="Media"> Media</label>
+                </p>
+                <p>
+                    <label><input type="radio" name="priority" value="Alta">Alta</label>
+                </p>
+            </fieldset>
+        </p>
+        <p>
+            <fieldset>
+                <legend>Selecciona el tipo de envio</legend>
+                <p>
+                    <label><input type="checkbox" name="deliverytype" value="urgente" checked>Urgente</label>
+                </p>
+                <p>
+                    <label><input type="checkbox" name="deliverytype" value="acuse">Con acuse de recibo</label>
+                </p>
+                <p>
+                    <label><input type="checkbox" name="deliverytype" value="reembolso">Contra reembolso</label>
+                </p>
+            </fieldset>
+        </p>
+        <input type="submit" value="Enviar" />
+      </form>
+    </section>
   </body>
 </html>
