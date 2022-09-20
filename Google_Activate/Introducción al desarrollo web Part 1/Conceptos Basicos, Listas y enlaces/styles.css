@@ -7,3 +7,6 @@ body{
     border-radius: 12px;
     padding: 0.01%;
 }
+a{
+    text-decoration: none;
+}
