@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listas y CSS</title>
+    <link
+      rel="stylesheet"
+      href="/Google_Activate/Introducción al desarrollo web Part 2/Listas/listas.css"
+    />
+  </head>
+  <body>
+    <!--This is a comment-->
+    <h1>Lists</h1>
+    <p>
+      This section is dedicated to list types and how to change the default
+      values they have through CSS, for example, in ordered lists instead of
+      using the HTML type attribute, we use CSS to achieve the same.
+    </p>
+    <br />
+    <hr />
+    <ul>
+      <li class="cuadrados">
+        <h2>Unordered list</h2>
+        <ul>
+          <li>Element 1</li>
+          <li>Element 2</li>
+          <li>Element 3</li>
+          <li>Element 4</li>
+          <li>Element 5</li>
+        </ul>
+        <p>
+          The form of the identifier of each element can be changed with
+          <em>CSS</em>
+        </p>
+      </li>
+      <li class="cuadrados">
+        <h2 id="OL">Ordered list</h2>
+        <ul>
+          <li>
+            <h3>Common ordered list</h3>
+            <ol class="orderedCommon">
+              <li>Element 1</li>
+              <li>Element 2</li>
+              <li>Element 3</li>
+              <li>Element 4</li>
+              <li>Element 5</li>
+            </ol>
+          </li>
+          <li>
+            <h3>Ordered list + reversed (reverse the order)</h3>
+            <ol class="orderedCommon" reversed>
+              <li>Element 1</li>
+              <li>Element 2</li>
+              <li>Element 3</li>
+              <li>Element 4</li>
+              <li>Element 5</li>
+            </ol>
+          </li>
+          <li>
+            <h3>Ordered list + change in initial value</h3>
+            <ol class="orderedCommon">
+              <li value="10">Element 1</li>
+              <li>Element 2</li>
+              <li>Element 3</li>
+              <li>Element 4</li>
+              <li>Element 5</li>
+            </ol>
+          </li>
+          <li>
+            <h3>Ordered list + type = "A"</h3>
+            <ol class="typeA">
+              <li>Element 1</li>
+              <li>Element 2</li>
+              <li>Element 3</li>
+              <li>Element 4</li>
+              <li>Element 5</li>
+            </ol>
+          </li>
+          <li>
+            <h3>Ordered list + type = "A" + reversed (reverse the order)</h3>
+            <ol class="typeA" reversed>
+              <li>Element 1</li>
+              <li>Element 2</li>
+              <li>Element 3</li>
+              <li>Element 4</li>
+              <li>Element 5</li>
+            </ol>
+          </li>
+          <li>
+            <h3>Ordered list + type = "A" + change in initial value</h3>
+            <ol class="typeA">
+              <li value="5">Element 1</li>
+              <li>Element 2</li>
+              <li>Element 3</li>
+              <li>Element 4</li>
+              <li>Element 5</li>
+            </ol>
+          </li>
+          <li>
+            <h3>Ordered list + type = "a"</h3>
+            <ol class="typea">
+              <li>Element 1</li>
+              <li>Element 2</li>
+              <li>Element 3</li>
+              <li>Element 4</li>
+              <li>Element 5</li>
+            </ol>
+          </li>
+          <li>
+            <h3>Ordered list + type = "a" + change in initial value</h3>
+            <ol class="typea">
+              <li value="5">Element 1</li>
+              <li>Element 2</li>
+              <li>Element 3</li>
+              <li>Element 4</li>
+              <li>Element 5</li>
+            </ol>
+          </li>
+          <li>
+            <h3>Ordered list + type = "a" + reversed (reverse the order)</h3>
+            <ol class="typea" reversed>
+              <li>Element 1</li>
+              <li>Element 2</li>
+              <li>Element 3</li>
+              <li>Element 4</li>
+              <li>Element 5</li>
+            </ol>
+          </li>
+          <li>
+            <h3>Ordered list + type = "I"</h3>
+            <ol class="typeI">
+              <li>Element 1</li>
+              <li>Element 2</li>
+              <li>Element 3</li>
+              <li>Element 4</li>
+              <li>Element 5</li>
+            </ol>
+          </li>
+          <li>
+            <h3>Ordered list + type = "I" + reversed (reverse the order)</h3>
+            <ol class="typeI" reversed>
+              <li>Element 1</li>
+              <li>Element 2</li>
+              <li>Element 3</li>
+              <li>Element 4</li>
+              <li>Element 5</li>
+            </ol>
+          </li>
+          <li>
+            <h3>Ordered list + type = "I" + change in initial value</h3>
+            <ol class="typeI">
+              <li value="5">Element 1</li>
+              <li>Element 2</li>
+              <li>Element 3</li>
+              <li>Element 4</li>
+              <li>Element 5</li>
+            </ol>
+          </li>
+          <li>
+            <h3>Ordered list + type = "i"</h3>
+            <ol class="typei">
+              <li>Element 1</li>
+              <li>Element 2</li>
+              <li>Element 3</li>
+              <li>Element 4</li>
+              <li>Element 5</li>
+            </ol>
+          </li>
+          <li>
+            <h3>Ordered list + type = "i" + change in initial value</h3>
+            <ol class="typei">
+              <li value="5">Element 1</li>
+              <li>Element 2</li>
+              <li>Element 3</li>
+              <li>Element 4</li>
+              <li>Element 5</li>
+            </ol>
+          </li>
+          <li>
+            <h3>Ordered list + type = "i" + reversed (reverse the order)</h3>
+            <ol class="typei" reversed>
+              <li>Element 1</li>
+              <li>Element 2</li>
+              <li>Element 3</li>
+              <li>Element 4</li>
+              <li>Element 5</li>
+            </ol>
+          </li>
+        </ul>
+      </li>
+      <li class="cuadrados">
+        <h2>Description List</h2>
+        <p>
+          It is used for glossaries, with "dl", it is defined as a description
+          list, with "dt" the term to be defined is placed, with "dd" the
+          definition is placed. For example:
+        </p>
+        <dl>
+          <dt><b>Song</b></dt>
+          <dd>Sung musical piece.</dd>
+          <dd>
+            Literary composition, usually in verse, set to music to be sung.
+          </dd>
+          <dt><b>Dance</b></dt>
+          <dd>Action of dancing.</dd>
+        </dl>
+      </li>
+    </ul>
+    <hr />
+    <h2>Example of list-style-image</h2>
+    <ul class="listImage">
+      <li>Element 1</li>
+      <li>Element 2</li>
+      <li>Element 3</li>
+    </ul>
+  </body>
+</html>

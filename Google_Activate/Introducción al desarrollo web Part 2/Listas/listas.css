@@ -1,0 +1,27 @@
+.cuadrados{
+    list-style-type: square;
+}
+
+ul li ul > li{
+    list-style-type: disc;
+}
+.orderedCommon{
+    list-style-type: decimal;
+}
+.typeA{
+    list-style-type: upper-latin;
+    list-style-position: inside;
+}
+.typea{
+    list-style-type: lower-latin;
+    list-style-position: outside;
+}
+.typeI{
+    list-style-type: upper-roman;
+}
+.typei{
+    list-style-type: lower-roman;
+}
+.listImage{
+    list-style-image: url(/images/ListIcon.png);
+}
