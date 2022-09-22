@@ -84,3 +84,9 @@ section#ListaEnlaces2 ul li a:active {
     transition: all 0.1s ease;
 
 }
+
+section#ListaEnlaces2 {
+    display: block;
+    width: 255px;
+    margin: 0 auto;
+}
