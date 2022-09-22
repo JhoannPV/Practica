@@ -84,9 +84,3 @@ section#ListaEnlaces2 ul li a:active {
     transition: all 0.1s ease;
 
 }
-
-section#ListaEnlaces2 {
-    background-color: rgb(124, 173, 49);
-    display: block;
-    box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.3);
-}
