@@ -1,0 +1,38 @@
+/* Text aling */
+.left{
+    text-align: left
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
+
+/* Text indent */
+.indent{
+    text-indent: 1cm;
+}
+/* Text decoration */
+.decoration1{
+    text-decoration: underline;
+}
+.decoration2{
+    text-decoration: overline;
+}
+.decoration3{
+    text-decoration: line-through;
+}
+/* Text transform */
+.transform1{
+    text-transform: capitalize;
+}
+.transform2{
+    text-transform: uppercase;
+}
+.transform3{
+    text-transform: lowercase;
+}

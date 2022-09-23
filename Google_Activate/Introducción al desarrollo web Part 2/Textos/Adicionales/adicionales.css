@@ -1,0 +1,43 @@
+.letter-spacing1 {
+    letter-spacing: 2px;
+}
+
+.letter-spacing2 {
+    letter-spacing: -0.1em;
+}
+
+.word-spacing1 {
+    word-spacing: 6px;
+}
+
+.word-spacing2 {
+    word-spacing: -0.5em;
+}
+
+.line-height1 {
+    line-height: 1.5em;
+}
+
+.line-height2 {
+    line-height: 2em;
+}
+
+.line-height3 {
+    line-height: -0.2em;
+}
+
+.white-space1 {
+    white-space: pre;
+}
+
+.white-space2 {
+    white-space: nowrap;
+}
+
+.white-space3 {
+    white-space: pre-wrap;
+}
+
+.white-space4 {
+    white-space: pre-line;
+}
